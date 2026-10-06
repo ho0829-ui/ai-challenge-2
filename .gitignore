@@ -1,0 +1,42 @@
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.cache/
+imgcache/
+hf-cache/
+
+# Competition data and model artifacts: obtain separately
+data/
+vqa_data/
+datasets/
+checkpoints/
+lora_*/
+VQA_runs/
+outputs/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+sub_*.csv
+train.csv
+test.csv
+dev.csv
+sample_submission.csv
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
